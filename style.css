@@ -1,0 +1,141 @@
+body {
+    background-color: rgb(195, 224, 215);
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+a {
+    text-decoration: none;
+    color: #36536B;
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .demo {
+    background-color: #BA4270;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+.intro .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro h2 {
+    font-size: 72px;
+    width: 540px;
+    color: #36536B;
+}
+
+main {
+    margin-top: 50px;
+}
+
+.sponsers {
+    background-color: #1B262F;
+    padding: 40px 0;
+    color: white;
+    margin-top: 50px;
+}
+
+.sponsers .container {
+    display: flex;
+    gap: 100px;
+}
+
+.sponsers .content {
+    width: 50%;
+}
+
+.sponsers p {
+    color: rgb(147, 144, 144);
+    line-height: 22px;
+    margin-bottom: 40px;
+}
+
+.sponsers a {
+    color: white;
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+.sponsers .companies {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sponsers .companies img {
+    height: 20px;
+}
+
+@media (max-width: 768px) {
+    .intro .container {
+        flex-direction: column-reverse;
+    }
+
+    .intro h1 {
+        font-size: 42px;
+        text-align: center;
+    }
+
+    .sponsers.container {
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+
+    .sponsers {
+        text-align: center;
+    }
+
+    .sponsers.companies {
+        justify-content: center;
+    }
+
+    .sponsers.companies img {
+        width: 25%;
+    }
+}
+
+@media (max-width: 600px) {
+    header .container {
+        flex-direction: column;
+    }
+
+    header ul {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .intro h1 {
+        width: 85%;
+
+    }
+
+}
