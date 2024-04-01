@@ -86,7 +86,7 @@ main {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 70px;
 }
 
 .sponsers .companies img {
