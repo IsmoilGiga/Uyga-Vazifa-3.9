@@ -57,6 +57,7 @@ main {
     padding: 40px 0;
     color: white;
     margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 .sponsers .container {
@@ -91,6 +92,65 @@ main {
 
 .sponsers .companies img {
     height: 20px;
+}
+
+.implement .top {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.implement h2 {
+    color: #36536B;
+    font-size: 48px;
+}
+
+.implement p {
+    font-size: 15px;
+    line-height: 20px;
+    color: #6C8294;
+}
+
+.implement .bottom {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+}
+
+.implement .bottom h3 {
+    color: #36536B;
+}
+
+footer {
+    background-color: #1B262F;
+    padding: 10px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+footer i {
+    height: 100%;
+    font-size: 30px;
+}
+
+footer a {
+    color: white;
+}
+
+footer ul {
+    display: flex;
+    gap: 40px;
 }
 
 @media (max-width: 768px) {
